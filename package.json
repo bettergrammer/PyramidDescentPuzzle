@@ -6,9 +6,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "node": "^15.10.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^8.3.2"
