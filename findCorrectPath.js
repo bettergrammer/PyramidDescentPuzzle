@@ -1,12 +1,7 @@
-let input = `Target: 720
-2
-4,3
-3,2,6
-2,9,5,2
-10,5,2,15,5`;
-
-
 function findCorrectPath(input) {
+  if (typeof input !== 'string') {
+    return null;
+  }
   let pyramid = input.split('\n');
   let target = Number(pyramid.shift().slice(8));
   pyramid = pyramid.map((str) => str.split(',').map((num) => Number(num)));
@@ -29,4 +24,4 @@ function findCorrectPath(input) {
   return checkPaths(pyramid, target, pyramid[0][0]);
 };
 
-console.log(findCorrectPath(input));
+module.exports = findCorrectPath;

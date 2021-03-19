@@ -1,0 +1,30 @@
+{
+  "name": "PyramidDescentPuzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "findCorrectPath.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node": "^15.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettergrammer/PyramidDescentPuzzle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bettergrammer/PyramidDescentPuzzle/issues"
+  },
+  "homepage": "https://github.com/bettergrammer/PyramidDescentPuzzle#readme"
+}
